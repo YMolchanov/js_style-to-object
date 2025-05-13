@@ -6,6 +6,7 @@
  * @return {object}
  */
 function convertToObject(sourceString) {
+  // write your code here
   const arrayStrings = sourceString.split(';');
   const arrayWithNoSpaces = arrayStrings.map((element) => element.trim());
   const result = arrayWithNoSpaces.reduce((status, element, index) => {
